@@ -4,7 +4,7 @@ This program was written in 2017 and is being uploaded in 2021 for my personal r
 
 ### Interface in Initial Startup:
 ![image](https://user-images.githubusercontent.com/15698935/133910928-e34fe099-2530-4b09-a799-d0137d33875c.png)
-Image description: Screenshot of the GUI on initial startup. Text Input and Output Field are blank. Total and Unique word counters both show 0 in the bottom left-hand corner.
+*Image Description*: Screenshot of the GUI on initial startup. Text Input and Output Field are blank. Total and Unique word counters both show 0 in the bottom left-hand corner.
 
 ### This can output:
   - Alphabetized list of words and their frequencies
@@ -15,21 +15,21 @@ Image description: Screenshot of the GUI on initial startup. Text Input and Outp
   - Unique word count
 
 ### Buttons in Interface:
-Alphabetize             - Orders words alphabetically and prints them & their frequencies to the Output Field.\n
-Order by Occurance      - Orders words by # of occurances, organizing ties alphabetically, and prints them & their frequencies to the Output Field. Ordering by occurance sorts the numbers alphabetically (ie like: 1,10,11,12,2,3,4,5,6,7,8,9) instead of by value.\n
-Clear Field             - Clears the Text Input field.\n
-Copy to Clipboard       - Copies text in the format of "word1: freq1; word2: freq2; \[...\]; wordN: freqN;" to your clipboard so you can paste elsewhere. Order is as shown in the Output Field.\n
-Copy Words to ClipBoard - Copies text in the format of "word1 word2 \[...\] wordN" to your clipboard so you can paste elsewhere. Order is as shown in the Output Field.\n
+Alphabetize             - Orders words alphabetically and prints them & their frequencies to the Output Field.<br />
+Order by Occurance      - Orders words by # of occurances, organizing ties alphabetically, and prints them & their frequencies to the Output Field. Ordering by occurance sorts the numbers alphabetically (ie like: 1,10,11,12,2,3,4,5,6,7,8,9) instead of by value.<br />
+Clear Field             - Clears the Text Input field.<br />
+Copy to Clipboard       - Copies text in the format of "word1: freq1; word2: freq2; \[...\]; wordN: freqN;" to your clipboard so you can paste elsewhere. Order is as shown in the Output Field.<br />
+Copy Words to ClipBoard - Copies text in the format of "word1 word2 \[...\] wordN" to your clipboard so you can paste elsewhere. Order is as shown in the Output Field.<br />
 
 ### Fields in Interface:
-Text Input                - Top Left. Can right click to paste or manually type in text. Right clicking in here brings up a menu to cut, copy, paste, and select all. Undo on the right click menu functions for 'cut'.\n
-Text Processing Buttons   - Top Right. All 3 buttons are defined above (see "Buttons in Interface").\n
-Output Field              - Middle. Output text is printed here upon pressing Alphabetize or Order by Occurance. No direct interactive functionality enabled.\n
-Copy Options Buttons      - Lower Middle. Allows copying of text printed in Output Field.\n
-Word Count Total & Unique - Lower Left. Displays the number of unique words and number of total words represented in the Output Field.\n
+Text Input                - Top Left. Can right click to paste or manually type in text. Right clicking in here brings up a menu to cut, copy, paste, and select all. Undo on the right click menu functions for 'cut'.<br />
+Text Processing Buttons   - Top Right. All 3 buttons are defined above (see "Buttons in Interface").<br />
+Output Field              - Middle. Output text is printed here upon pressing Alphabetize or Order by Occurance. No direct interactive functionality enabled.<br />
+Copy Options Buttons      - Lower Middle. Allows copying of text printed in Output Field.<br />
+Word Count Total & Unique - Lower Left. Displays the number of unique words and number of total words represented in the Output Field.<br />
 
 ![image](https://user-images.githubusercontent.com/15698935/133911859-ccdc72af-28f1-4bdc-b260-4caa356378fa.png)
-Image description: Interface with Input Text and Output Field labeled in-program. Input Text reads "This is the text input field", Output Field reads " words and their frequency print in output field here". Officially, Output Field exactly says "1: words; 2: and; 2: their; 3: frequency; 3: print; 4: in; 4: output; 5: field; 5: here; ". Word Count is 29, Unique Words is 9.
+*Image Description*: Interface with Input Text and Output Field labeled in-program. Input Text reads "This is the text input field", Output Field reads " words and their frequency print in output field here". Officially, Output Field exactly says "1: words; 2: and; 2: their; 3: frequency; 3: print; 4: in; 4: output; 5: field; 5: here; ". Word Count is 29, Unique Words is 9.
 
 ### Limitations:
   - Not optimized to handle large amounts of input text.
