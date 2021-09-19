@@ -29,6 +29,7 @@ Copy Options Buttons      - Lower Middle. Allows copying of text printed in Outp
 Word Count Total & Unique - Lower Left. Displays the number of unique words and number of total words represented in the Output Field.\n
 
 ![image](https://user-images.githubusercontent.com/15698935/133911859-ccdc72af-28f1-4bdc-b260-4caa356378fa.png)
+Image description: Interface with Input Text and Output Field labeled in-program. Input Text reads "This is the text input field", Output Field reads " words and their frequency print in output field here". Officially, Output Field exactly says "1: words; 2: and; 2: their; 3: frequency; 3: print; 4: in; 4: output; 5: field; 5: here; ". Word Count is 29, Unique Words is 9.
 
 ### Limitations:
   - Not optimized to handle large amounts of input text.
